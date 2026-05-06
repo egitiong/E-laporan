@@ -109,6 +109,7 @@ ul.links li:not(:last-child) {
 
 .links .link-text {
   text-align: center;
+ justify-content: center;
 }
 
 .link-action {
@@ -131,7 +132,17 @@ ul.links li:not(:last-child) {
   width: 2rem;
   opacity: 0.4;
 }
-
+.judul {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  background-color: #191931;
+  gap: 0.2rem;
+  padding: 0.2rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+ 
+}
 #toast {
   width: max-content;
   position: fixed;
